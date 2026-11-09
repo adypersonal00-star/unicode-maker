@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Extract Android project
-        run: python3 -m zipfile -e unicode-maker-source.zip .
+        run: python3 -m zipfile -e unicode-maker-source-v3.zip .
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
